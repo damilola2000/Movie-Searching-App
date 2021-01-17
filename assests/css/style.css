@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+}
+
+section {
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+
+.movie { 
+    padding: 20px;
+    margin: 0 auto;
+}
+
+div.poster {
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    margin: 20px 10px 40px 5px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.poster_img{
+    width: 300px;
+    height: 450px;
+}
+
+ .poster button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    position: relative;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+ }
+  
+.poster_title {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(20, 20, 20);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    width: 100%;
+    word-wrap: break-word;
+    height: 450px;
+    white-space: normal;
+    text-align: center;
+    transition: opacity .2s, visibility .2s;
+}
+  
+  .poster:hover .poster_title {
+    visibility: visible;
+    opacity: 0.85;
+  }
+
+  #section {
+    border:1px solid #778899;
+    margin: 20px 0 20px 0;
+  }
+
+  #nominations {
+    border:1px solid #778899;
+    margin: 20px 0 20px 0;
+  }
+
+   .col {
+    border: 1px solid #778899;
+    margin:5px;
+    margin-bottom: 10px;
+  }
