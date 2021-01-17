@@ -1,5 +1,5 @@
 const API_KEY = 'd7d9d174';
-const endpoint = 'http://www.omdbapi.com/?apikey=d7d9d174&';
+const endpoint = 'https://www.omdbapi.com/?apikey=d7d9d174&';
 
 const searchButton = document.querySelector('#search');
 const inputElement = document.querySelector('#inputVal');
